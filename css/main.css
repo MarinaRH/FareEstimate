@@ -1,4 +1,18 @@
 #map {
-    height: 100vh;
-    width: 100%;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+
+header nav{
+  background-color: rgba(91, 91, 94, 0.507);
+}
+
+.nav-mobile {
+  color: black !important;
+}
+
+.point {
+  position: relative;
+  padding-top: 28px;
 }

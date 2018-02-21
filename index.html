@@ -13,7 +13,7 @@
     <nav>
       <div class="nav-wrapper">
         <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li><a href="#">UBER</a></li>
+          <li><a href="#"><img class="logo" src="assets/images/logo.png"></a></li>
           <li><a href="#">Viaja</a></li>
           <li><a href="#">Conduce</a></li>
         </ul>
@@ -26,21 +26,65 @@
     </nav>
   </header>
   <main>
-      <div id="map"></div>
-      <div class="row point">
-        <div class="col s4 m4 lg4 ">
-          <p class="mt-3">Para trazar su ruta: </p>
-          <input type="text" class="form-control mt-2" id="origin" placeholder="punto partida">
-          <input type="text" class="form-control mt-2" id="destination" placeholder="destino">
-          <button type="button" class="btn btn-dark mt-2" id="btn-trazar-ruta">trazar ruta</button>
+    <div id="map"></div>
+    <div class="row point">
+      <div class="col s6 m3 lg3 ">
+        <div class="row">
+          <div class="col s12 m12 partida">
+            <input type="text" class="input" id="origin" placeholder="punto partida">
+          </div>
+        </div>
+        <div class="row partida">
+          <div class="col s10 m11 ">
+            <input type="text" class="input" id="destiny" placeholder="destino">
+          </div>
+          <div class="col s2 m1">
+            <button type="button" class="btn" id="btn-price"><img src="assets/images/arrow.png"></button>
+          </div>
+          </div>
+      </div>
+    </div>
+    <div class="row price">
+      <div class="col s6 m3 lg3 ">
+        <h5>Tus opciones</h5><hr>
+        <div class="row">
+          <div class="col s6 m6"><span>UberBLACK</span></div>
+          <div class="col s6 m6"><span>price1</span></div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col s6 m6"><span>UberX</span></div>
+          <div class="col s6 m6"><span>price2</span></div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col s6 m6"><span>UberVAN</span></div>
+          <div class="col s6 m6"><span>price3</span></div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col s6 m6"><span>UberPOOL</span></div>
+          <div class="col s6 m6"><span>price4</span></div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col s12 m12">
+            <button class="btn1">REGISTRATE PARA VIAJAR</button>
+          </div>
         </div>
       </div>
     </div>
   </main>
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+
+
+
+
+
+  
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtUAmG1XuRLY9-Yw4HCytoKlWlZX5FPcQ&libraries=places">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtUAmG1XuRLY9-Yw4HCytoKlWlZX5FPcQ&callback=initMap"
-    async defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script src="js/app.js"></script>
 </body>

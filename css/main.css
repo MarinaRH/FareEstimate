@@ -4,6 +4,11 @@
   position: absolute;
 }
 
+.logo {
+  width: 49px;
+  height: 30px;
+}
+
 header nav{
   background-color: rgba(91, 91, 94, 0.507);
 }
@@ -12,7 +17,38 @@ header nav{
   color: black !important;
 }
 
-.point {
+.point>div{
   position: relative;
-  padding-top: 28px;
+  margin-top: 50px;
+  background-color: white;
+}
+
+.price>div {
+  position: relative;
+  background-color: white;
+}
+.partida {
+  border:1px solid black;
+  height: 47px;
+  margin-top: 10px;
+}
+
+.btn {
+  position: absolute;
+  bottom: 20px;
+  right: 11px;
+  height: 47px;
+  background-color: rgb(209, 32, 186);
+  color: white;
+}
+
+.btn1 {
+  background-color: rgb(209, 32, 186);
+  color: white;
+  width: 100%;
+  padding: 10px;
+}
+
+input {
+  border-bottom:none !important;
 }

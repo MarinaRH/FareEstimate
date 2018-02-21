@@ -1,7 +1,7 @@
-data: {
+data= {
   "prices": [
     {
-      "localized_display_name": "POOL",
+      "localized_display_name": "uberPOOL",
       "distance": 6.17,
       "display_name": "POOL",
       "product_id": "26546650-e557-4a7b-86e7-6a3942445247",
@@ -34,7 +34,7 @@ data: {
       "currency_code": "USD"
     },
     {
-      "localized_display_name": "BLACK",
+      "localized_display_name": "uberBLACK",
       "distance": 6.17,
       "display_name": "BLACK",
       "product_id": "d4abaae7-f4d6-4152-91cc-77523e8165a4",

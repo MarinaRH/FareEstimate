@@ -4,7 +4,7 @@
 
 En esta web podremos  estimar el costo que tendremos ue pagar segun la distancia que indicamos,adicional a ello podremos conocer los precios de los diferentes tipos de servicios que tiene Uber.
 
-![image-git](https://user-images.githubusercontent.com/32303587/36364233-da85789a-1510-11e8-8e8a-a13e52db2918.png)
+[PRUEBA FARE ESTIMATE](https://marinarh.github.io/FareEstimate/public/)
 
 Desarrollado para [Laboratoria](http://laboratoria.la)
 
@@ -15,6 +15,10 @@ Desarrollado para [Laboratoria](http://laboratoria.la)
 * Express (dependencia),
 * gitignore,
 * Api Google maps
+
+## DEMO
+
+![login](public/assets/images/uber.png)
 
 ## Integrantes(GitHub)
 
